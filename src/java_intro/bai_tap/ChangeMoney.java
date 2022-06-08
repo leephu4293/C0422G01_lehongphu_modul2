@@ -8,6 +8,6 @@ public class ChangeMoney {
         System.out.println("nhap USD muon doi :");
         float money= sc.nextFloat();
         float change = money * 23000;
-        System.out.println("theo ty gia 1 USD= 23000 VND =" + change + "VND");
+        System.out.println("theo ty gia 1 USD= 23000 VND;  "+ money +"USD = " + change + "VND");
     }
 }
