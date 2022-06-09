@@ -1,4 +1,4 @@
-package java_intro.bai_tap;
+package Arrayss3.Array;
 
 import java.util.Arrays;
 import java.util.Scanner;
