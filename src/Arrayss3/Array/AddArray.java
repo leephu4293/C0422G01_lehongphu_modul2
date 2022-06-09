@@ -13,11 +13,11 @@ public class AddArray {
         float [] arr1 = new float[length1];
         float [] arr2 = new float[length2];
         float [] arr3 = new float[length1 + length2];
-        System.out.println("nhap pahn tu mang 1 ");
+        System.out.println("nhap phan tu mang 1 ");
         for (int i = 0; i < length1; i++) {
             arr1[i]= Float.parseFloat(sc.nextLine());
         }
-        System.out.println("nhap pahn tu mang 2 ");
+        System.out.println("nhap phan tu mang 2 ");
         for (int i = 0; i < length2; i++) {
             arr2[i]= Float.parseFloat(sc.nextLine());
         }

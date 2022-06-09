@@ -9,7 +9,7 @@ public class PushArray {
         System.out.println("nhap do dai mang ");
         int index = Integer.parseInt(sc.nextLine());
         float[] arr = new float[index];
-        System.out.println("nhap pahn tu mang ");
+        System.out.println("nhap phan tu mang ");
         for (int i = 0; i < index; i++) {
             arr[i] = sc.nextFloat();
         }
