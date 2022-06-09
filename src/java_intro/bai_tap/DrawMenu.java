@@ -2,7 +2,7 @@ package java_intro.bai_tap;
 
 import java.util.Scanner;
 
-public class VeHinh {
+public class DrawMenu {
     public static void main(String[] args) {
         Dispaly();
     }

@@ -2,7 +2,7 @@ package java_intro.bai_tap;
 
 import java.util.Scanner;
 
-public class HienThiSnt {
+public class ShowName {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhap so luong so nguyen to muon xem:");
