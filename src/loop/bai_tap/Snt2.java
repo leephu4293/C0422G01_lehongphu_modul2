@@ -1,4 +1,4 @@
-package java_intro.bai_tap;
+package loop.bai_tap;
 public class Snt2 {
     public static void main(String[] args) {
         int num = 2;
