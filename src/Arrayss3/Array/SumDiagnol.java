@@ -1,4 +1,4 @@
-package loop.bai_tap;
+package Arrayss3.Array;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class SumDiagnol {
         System.out.println("nhap chieu dai mang con ");
         int length2= sc.nextInt();
         float [][] arr = new float[length1][length2];
-        System.out.println("nhap pahn tu mang ");
+        System.out.println("nhap phan tu mang ");
         for (int i = 0; i < length1; i++) {
             for (int j = 0; j < length2; j++) {
                 arr[i][j]= sc.nextFloat();

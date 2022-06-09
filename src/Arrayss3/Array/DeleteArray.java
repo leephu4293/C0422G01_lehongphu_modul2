@@ -9,12 +9,12 @@ public class DeleteArray {
         System.out.println("nhap chieu dai mang ");
         int index = Integer.parseInt(sc.nextLine());
         float[] arr = new float[index];
-        System.out.println("nhap pah ntu mang ");
+        System.out.println("nhap phan tu mang ");
         for (int i = 0; i < index; i++) {
             arr[i] = Float.parseFloat(sc.nextLine());
         }
         System.out.println(Arrays.toString(arr));
-        System.out.println("nhap pahn tu muon xoa ");
+        System.out.println("nhap phan tu muon xoa ");
         float del = Float.parseFloat(sc.nextLine());
         for (int i = 0; i < arr.length; i++) {
             if (del == arr[i]) {
