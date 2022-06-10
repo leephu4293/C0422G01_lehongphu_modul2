@@ -59,6 +59,7 @@ public class Fan {
         fan1.setOn(true);
         Fan fan2 = new Fan();
         fan2.getColor();
+        fan2.setSpeed(2);
         fan2.setRadius(5);
         fan2.setOn(false);
         System.out.println( " quat 1 " +"\n" + fan1.toString());
