@@ -1,42 +1,37 @@
 package abtract_interface.bai_tap.bt1;
 
-import abtract_interface.bai_tap.bt2.IColorable;
 
-public class Square extends Retange implements Resizeable {
-        public Square() {
-        }
-        public Square(double side) {
-            super(side, side);
-        }
+public class Square extends Shape implements Resizeable {
+    private double size;
+    public Square() {
 
-        public Square(double side, String color, boolean filled) {
-            super(side, side, color, filled);
-        }
+    }
+    public Square(double size) {
+        this.size = size;
+    }
 
-        public double getSide() {
-            return getWidth();
-        }
+    public Square(String color, boolean filled, double size) {
+        super(color, filled);
+        this.size = size;
+    }
 
-        public void setSide(double side) {
-            setWidth(side);
-            setLength(side);
-        }
+    public double getSize() {
+        return size;
+    }
 
-        @Override
-        public void setWidth(double width) {
-            setSide(width);
-        }
+    public void setSize(double size) {
+        this.size = size;
+    }
 
-        @Override
-        public void setLength(double length) {
-            setSide(length);
-        }
+    @Override
+    public String toString() {
+        return "Square{" +
+                "size=" + size +
+                '}';
+    }
 
-        @Override
-        public String toString() {
-            return "A Square with side="
-                    + getSide();
-        }
-
-
+    @Override
+    public void resizeable(double percent) {
+        size+= size * percent/100;
+    }
 }

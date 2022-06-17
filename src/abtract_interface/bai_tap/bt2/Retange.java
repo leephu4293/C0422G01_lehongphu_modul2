@@ -49,7 +49,7 @@ public class Retange extends Shape implements IArea{
     }
 
     @Override
-    public double Area() {
+    public double getAre() {
         return width*length;
     }
 }

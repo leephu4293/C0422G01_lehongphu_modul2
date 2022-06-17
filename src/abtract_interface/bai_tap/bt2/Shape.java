@@ -1,6 +1,6 @@
 package abtract_interface.bai_tap.bt2;
 
-public class Shape {
+public  abstract class Shape {
     private String color = "green";
     private boolean filled = true;
 

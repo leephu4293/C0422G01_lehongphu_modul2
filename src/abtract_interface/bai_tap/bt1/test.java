@@ -15,13 +15,12 @@ public class test {
                 System.out.println(" hinh tron" +shape);
             }
             if (shape instanceof Retange) {
-                if (shape instanceof Square) {
-                    ((Square) shape).resizeable(((Math.random() * 100)));
-                    System.out.println("hinh vuong " + shape);
-                } else {
                     ((Retange) shape).resizeable(((Math.random() * 100)));
                     System.out.println("hinh chu nhat " + shape);
                 }
+            if (shape instanceof Square) {
+                ((Square) shape).resizeable(((Math.random() * 100)));
+                System.out.println("hinh vuong " + shape);
             }
         }
     }

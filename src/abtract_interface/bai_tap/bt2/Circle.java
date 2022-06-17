@@ -38,7 +38,7 @@ public class Circle extends Shape implements IArea {
     }
 
     @Override
-    public double Area() {
+    public double getAre() {
         return (radius*radius)*Math.PI;
     }
 }

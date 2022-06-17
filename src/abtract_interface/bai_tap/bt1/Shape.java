@@ -1,6 +1,6 @@
 package abtract_interface.bai_tap.bt1;
 
-public class Shape {
+public abstract class Shape {
     private String color = "green";
     private boolean filled = true;
 
@@ -11,7 +11,6 @@ public class Shape {
         this.color = color;
         this.filled = filled;
     }
-
     public String getColor() {
         return color;
     }

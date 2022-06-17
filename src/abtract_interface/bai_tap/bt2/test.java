@@ -8,13 +8,13 @@ public class test {
         shapes[2]= new Square();
         for (Shape shape:shapes) {
             if (shape instanceof Circle ){
-                System.out.println(shape+ "dien tich = "+   ((Circle) shape).Area() );
+                System.out.println(shape+ "dien tich = "+   ((Circle) shape).getAre() );
             }if (shape instanceof Retange ) {
                 if (shape instanceof Square) {
-                    System.out.println("Square dien tich la " + ((Square) shape).Area());
+                    System.out.println("Square dien tich la " + ((Square) shape).getAre());
                     System.out.println(((Square) shape).howToColor());
                 } else {
-                    System.out.println(shape + "dien tich = " + ((Retange) shape).Area());
+                    System.out.println(shape + "dien tich = " + ((Retange) shape).getAre());
                 }
             }
         }
